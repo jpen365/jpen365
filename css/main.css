@@ -1,0 +1,151 @@
+/*****************************************************
+GENERAL
+*****************************************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*****************************************************
+HEADING
+*****************************************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  margin: auto;
+  text-align: left;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  display: block;
+}
+
+
+/*****************************************************
+WRAPPER
+*****************************************************/
+
+#social_icons {
+  margin: auto;
+  width: 90%;
+  max-width: 420px;
+}
+  
+#social_icons img {
+  margin: 2.5%;
+  width: 15%;
+  float: left;
+}
+
+
+/*****************************************************
+FOOTER
+*****************************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+
+/*****************************************************
+COLORS
+*****************************************************/
+
+/* site body */
+body {
+  background: #FCFDF8;
+  color: #999;
+}
+
+/* links */
+/*a {
+  color: #6ab47b;
+}*/
+
+
+/*****************************************************
+RESUME PAGE
+*****************************************************/
+
+#wrapper {
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+}
+
+#contact {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;  
+}
+
+#contact h5 {
+  margin: 0;
+  padding: 0;
+  color: #777;
+}
+
+#contact a {
+  color: #777;
+}
+
+#summary {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+h3 {
+  color: #555;
+}
+
+.position h4, .project h4, .education h4 {
+  margin: 0;
+  padding: 0;
+  color: #777;
+}
+
+.position p, .education p, .project p{
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.position, .education, .project {
+  padding: 2px;
+  margin-bottom: 5px;
+}
+
+.project a h4 {
+  color: #777;
+  margin: 0;
+  padding: 0;
+}
+
+.project a p {
+  color: #999;
+}
+
+.position:hover, .skill:hover, .project:hover, .education:hover{
+  background: #E6F5C6;
+}
